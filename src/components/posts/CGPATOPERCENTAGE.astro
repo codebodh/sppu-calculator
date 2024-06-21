@@ -1,0 +1,159 @@
+---
+
+---
+
+<div id="page">
+  <h1>CGPA to Percentage SPPU</h1>
+  <div class="mt-8 text-center">
+    <p class="text-lg text-gray-700 text-center">
+      Easily convert your Savitribai Phule Pune University (SPPU) grades from
+      CGPA to their equivalent percentage values. This tool will assist you in
+      converting your CGPA to a percentage and guide you on how to convert any
+      CGPA value to its equivalent percentage.
+    </p>
+  </div>
+  <form class="bg-white shadow-lg rounded-lg p-6 w-full max-w-sm mt-8">
+    <h2 class="text-center text-2xl font-bold mb-4">
+      CGPA to Percentage Calculator
+    </h2>
+    <div class="form-control mb-4">
+      <label class="label">
+        <strong>Enter CGPA:</strong>
+      </label>
+      <input
+        type="number"
+        id="cgpa"
+        class="input input-bordered w-full"
+        placeholder="8.5"
+        step="0.01"
+        min="0"
+        max="10"
+      />
+    </div>
+    <div class="form-control">
+      <button
+        type="button"
+        id="calculate"
+        class="btn bg-[#48ffb2] text-[#2c2c2c] mb-2">Calculate</button
+      >
+      <button type="reset" id="reset" class="btn btn-neutral">Reset</button>
+    </div>
+    <div id="result" class="mt-4 text-center text-xl font-semibold"></div>
+  </form>
+  <div
+    id="additional-content"
+    class="bg-[#fff] text-[#2c2c2c] p-6 mt-8 rounded-lg shadow-lg"
+  >
+    <h2 class="text-2xl font-bold mb-4">
+      What is a CGPA to Percentage Calculator?
+    </h2>
+    <p class="text-lg text-left leading-relaxed">
+      Savitribai Phule Pune University (SPPU) is one of the well known
+      university in India which is known for its excellent academic and
+      extracurriculum facilities. The academic performance of the students in
+      SPPU is often calculated using the CGPA (Cumulative Grade Point Average)
+      grading system.
+    </p>
+    <p class="text-lg text-left leading-relaxed mt-4">
+      But many times while filling a government form or applying for a job,
+      students need to submit their grade in percentage system. Therefore, in
+      such a scenario, a CGPA to percentage calculator is used to easily convert
+      the grade of a student from CGPA system to percentage system.
+    </p>
+    <h2 class="text-2xl font-bold mb-4 mt-8">
+      How to Convert CGPA to Percentage SPPU?
+    </h2>
+    <p class="text-lg text-left leading-relaxed">
+      To convert CGPA to Percentage, simply multiply the CGPA value by 8.9. This
+      will give you the equivalent grade in percentage. <a
+        class="text-[#48ffb2]"
+        href="http://exam.unipune.ac.in/Docs/marksheet/Conversion%20Formula_22082022.pdf"
+        >[Source]</a
+      >
+    </p>
+    <div class="overflow-x-auto mt-4">
+      <table
+        class="table table-zebra w-full border border-[#48ffb2] lg:rounded"
+      >
+        <thead>
+          <tr>
+            <th
+              class="bg-[#48ffb2] text-[#2c2c2c] border border-[#48ffb2] text-left"
+              >Sr.No</th
+            >
+            <th
+              class="bg-[#48ffb2] text-[#2c2c2c] border border-[#48ffb2] text-left"
+              >CGPA</th
+            >
+            <th
+              class="bg-[#48ffb2] text-[#2c2c2c] border border-[#48ffb2] text-left"
+              >Class and degree awarded</th
+            >
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-[#48ffb2]">1</td>
+            <td class="border border-[#48ffb2]">7.42 (66%) or more</td>
+            <td class="border border-[#48ffb2]">First class with distinction</td
+            >
+          </tr>
+          <tr>
+            <td class="border border-[#48ffb2]">2</td>
+            <td class="border border-[#48ffb2]"
+              >6.75 (60%) or more but less than 7.41 First class with
+              distinction First Class (65.86 %)</td
+            >
+            <td class="border border-[#48ffb2]">First Class</td>
+          </tr>
+          <tr>
+            <td class="border border-[#48ffb2]">3</td>
+            <td class="border border-[#48ffb2]"
+              >6.18 (55%) or more but less than 6.74 (59.98%)</td
+            >
+            <td class="border border-[#48ffb2]">Higher second class</td>
+          </tr>
+          <tr>
+            <td class="border border-[#48ffb2]">4</td>
+            <td class="border border-[#48ffb2]"
+              >5.62 (50%) or more but less than 6.17 Higher second class Second
+              class (54.91%)</td
+            >
+            <td class="border border-[#48ffb2]">Second class</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <style>
+    body {
+      text-align: center;
+    }
+
+    #page {
+      padding: 2rem;
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background: #f5fffa;
+    }
+
+    h1 {
+      font-size: 4rem;
+      letter-spacing: 0.5px;
+      font-weight: 900;
+      text-align: center;
+      color: #2e2b23;
+    }
+
+    /* Responsive */
+    @media only screen and (max-width: 576px) {
+      h1 {
+        font-size: 40px;
+        line-height: 50px;
+      }
+    }
+  </style>
+</div>

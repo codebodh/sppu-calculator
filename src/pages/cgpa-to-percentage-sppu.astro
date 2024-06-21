@@ -1,0 +1,64 @@
+---
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
+import CGPATOPERCENTAGE from "../components/posts/CGPATOPERCENTAGE.astro";
+---
+
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>CGPA to Percentage SPPU</title>
+    <meta property="og:title" content="CGPA to Percentage SPPU" />
+    <meta
+      name="description"
+      content="Easily convert your Savitribai Phule Pune University (SPPU) grades from
+      CGPA to their equivalent percentage values. This tool will assist you in
+      converting your CGPA to a percentage and guide you on how to convert any
+      CGPA value to its equivalent percentage."
+    />
+    <meta
+      property="og:description"
+      content="Easily convert your Savitribai Phule Pune University (SPPU) grades from
+      CGPA to their equivalent percentage values. This tool will assist you in
+      converting your CGPA to a percentage and guide you on how to convert any
+      CGPA value to its equivalent percentage."
+    />
+    <meta property="og:image" content="/cgpa.svg" />
+    <meta property="og:image:alt" content="CGPA to Percentage SPPU" />
+    <meta property="og:site_name" content="SSPU Calculator" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://sppucalculator.pages.dev/cgpa-to-percentage-sppu/"
+    />
+    <meta
+      name="keywords"
+      content="cgpa to percentage sppu, sppu cgpa to percentage, cgpa to percentage sppu calculator, pune university cgpa to percentage, sppu cgpa to percentage calculator, sppu sgpa to percentage, cgpa to percentage sppu calculator, cgpa to percentage converter sppu, cgpa multiplying factor for sppu"
+    />
+    <meta name="author" content="Niraj Kumar" />
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-color: #fdfaf3;
+        font-family: "Poppins", Arial, Helvetica, sans-serif;
+        user-select: none;
+      }
+    </style>
+  </head>
+  <body>
+    <Navigation />
+    <CGPATOPERCENTAGE />
+    <Footer />
+
+    <script>
+      import "../scripts/CgpaToPercent.js";
+    </script>
+  </body>
+</html>

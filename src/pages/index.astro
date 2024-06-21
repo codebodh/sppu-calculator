@@ -1,0 +1,62 @@
+---
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
+import Hero from "../components/Hero.astro";
+---
+
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>SPPU Calculator</title>
+    <meta
+      property="og:title"
+      content="SPPU Calculator - CGPA & SGPA to Percentage"
+    />
+    <meta
+      name="description"
+      content="SPPU Calculator is one stop destination for all the students of Savitribai
+      Phule Pune University who wants to convert their scores from CGPA to
+      percentage or SGPA to percentage. Using this website, you can easily
+      convert your scores within a single click and get to know your score in
+      percentage."
+    />
+    <meta
+      property="og:description"
+      content="SPPU Calculator is one stop destination for all the students of Savitribai
+      Phule Pune University who wants to convert their scores from CGPA to
+      percentage or SGPA to percentage. Using this website, you can easily
+      convert your scores within a single click and get to know your score in
+      percentage."
+    />
+    <meta property="og:image" content="/cgpa.svg" />
+    <meta property="og:image:alt" content="CGPA to Percentage SSPU" />
+    <meta property="og:site_name" content="SPPU Calculator" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sppucalculator.pages.dev/" />
+    <meta
+      name="keywords"
+      content="sppu percentage, sppu cgpa, sppu sgpa, cgpa to percentage sppu, sgpa to percentage sppu, cgpa to percentage sppu calculator, pune university cgpa to percentage, sppu cgpa to percentage calculator"
+    />
+    <meta name="author" content="Niraj Kumar" />
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-color: #fdfaf3;
+        font-family: "Poppins", Arial, Helvetica, sans-serif;
+        user-select: none;
+      }
+    </style>
+  </head>
+  <body>
+    <Navigation />
+    <Hero />
+    <Footer />
+  </body>
+</html>

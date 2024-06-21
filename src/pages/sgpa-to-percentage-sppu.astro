@@ -1,0 +1,64 @@
+---
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
+import SGPATOPERCENTAGE from "../components/posts/SGPATOPERCENTAGE.astro";
+---
+
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>SGPA to Percentage SPPU</title>
+    <meta property="og:title" content="SGPA to Percentage SPPU" />
+    <meta
+      name="description"
+      content="Easily convert your Savitribai Phule Pune University (SPPU) grades from
+      SGPA to their equivalent percentage values. This tool will assist you in
+      converting your SGPA to a percentage and guide you on how to convert any
+      SGPA value to its equivalent percentage."
+    />
+    <meta
+      property="og:description"
+      content="Easily convert your Savitribai Phule Pune University (SPPU) grades from
+      SGPA to their equivalent percentage values. This tool will assist you in
+      converting your SGPA to a percentage and guide you on how to convert any
+      SGPA value to its equivalent percentage."
+    />
+    <meta property="og:image" content="/SGPA.svg" />
+    <meta property="og:image:alt" content="SGPA to Percentage SPPU" />
+    <meta property="og:site_name" content="SPPU Calculator" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://sppucalculator.pages.dev/sgpa-to-percentage-sppu/"
+    />
+    <meta
+      name="keywords"
+      content="sgpa to percentage sppu, sppu sgpa to percentage, sgpa to percentage pune university, sgpa calculator sppu, sppu sgpa to percentage calculator"
+    />
+    <meta name="author" content="Niraj Kumar" />
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-color: #fdfaf3;
+        font-family: "Poppins", Arial, Helvetica, sans-serif;
+        user-select: none;
+      }
+    </style>
+  </head>
+  <body>
+    <Navigation />
+    <SGPATOPERCENTAGE />
+    <Footer />
+
+    <script>
+      import "../scripts/SgpaToPercent.js";
+    </script>
+  </body>
+</html>
